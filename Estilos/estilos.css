@@ -25,43 +25,80 @@ height: 66,58%;
 .menu__item a{
     text-decoration: none;
     color: #616160;
-    font-family:Arial, sans-serif
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
 
 }
+/*INICIO*/
 .hero{
     background-image: url(../Recursos/Inicio_page-0001.jpg);
     background-position:center; 
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 89vh;
+}
+/*QUIENES SOMOS*/
+.hero__zaco{
+    background-image: url(../Recursos/zaco\ celestePEQUEÑA.png);
+    margin: auto;
+    display: block;
+    width: 100px;
+}
+img.pequeña{
+    width: 50px;
+    height: 50px;
+}
+
+.zaco__historia{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 18px; 
+    text-align: center;
+    border-style: solid;
+    border-color: darkgrey;
+
 }
 /*FOOTER*/
+footer{
+    background-position: center; 
+    background-size: cover;       
+}
 .footer{
     display: flex;
+    background-color: white;
     justify-content: center;
     align-items: center;
-    background-color: #F2EEED;
+    
 }
     .logo__footerinstragram{
         display: flex;
-        justify-content: space-evenly;
-        background-position: center;
-        width: 1440%;
-        height: 66,58%;
+        position: center
     }
     .whatsapp__footer{
-        position: relative;
-        justify-content: space-evenly;
-        display: inline-block;
-        left: 35px;
+        display: flex;
+        justify-content: center;
+        width: 1440%;
+        height: 66,58%;
+        background-position: center;
+    }
+    .ubicacion__footer{
+        display: flex;
+        position: center;
+    }
     }
     .footer__texto{
         position: center;
-        display: inline-block;
-        right: 100px;
         font-family: Arial, sans-serif;
+    }
     .footer__texto a{
-        text-decoration: none;
+    text-decoration: none;
+    color:#616160;
+    font-family: Arial, sans-serif; 
+    position: left;
+    }
+        
+    
     }
     
 
