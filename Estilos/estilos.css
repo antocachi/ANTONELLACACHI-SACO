@@ -2,22 +2,36 @@
     padding: 0;
     margin: o;
 }
+.body {
+    background: #f2eeed;
+}
 /*MENU*/
-header{
-    background-position: center;
-    background-size: cover;
+.Contenedor{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat (3 auto);
+  
+}
+.Contenedor header {
+    background: #f2eeedfb;
+    color: #616160;
+    grid-column-start: 1;
+    grid grid-column-end: 5;
 }
 .menu {
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #F2EEED;
+background-color: #f2eeedfb;
 }
 .menu__lista{
 display: flex;
 justify-content: space-evenly;
-width: 1440%;
+width: 100%;
 height: 66,58%;
+font-family: 'Alegreya Sans italic', sans-serif;
 }
 .menu__item{
     list-style: none;
@@ -25,7 +39,6 @@ height: 66,58%;
 .menu__item a{
     text-decoration: none;
     color: #616160;
-    font-family: Arial, sans-serif;
     font-size: 14px;
     text-align: center;
 
@@ -39,6 +52,18 @@ height: 66,58%;
     height: 89vh;
 }
 /*QUIENES SOMOS*/
+.Contenido__QuienesSomos {
+    background-image: url(../Recursos/FondoPapelTextura.jpeg);
+    width: 100%;
+    height: 100%;
+}
+.Image__zacorayo {
+    background-position: center bottom;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+
+}
 .hero__zaco{
     background-image: url(../Recursos/zaco\ celestePEQUEÑA.png);
     margin: auto;
@@ -51,25 +76,29 @@ img.pequeña{
 }
 
 .zaco__historia{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
     line-height: 18px; 
     text-align: center;
     border-style: solid;
     border-color: darkgrey;
+    grid-row: auto;
 
 }
 /*FOOTER*/
-footer{
-    background-position: center; 
-    background-size: cover;       
+.contenedor footer {
+    background: #f2eeed; 
+    color:#616160; 
+    grid-column: span 5;
+    font-family: 'Alegreya Sans italic', sans-serif;
+
 }
-.footer{
+.Pie {
     display: flex;
-    background-color: white;
+    background-color: #f2eeed;
     justify-content: center;
     align-items: center;
-    
+    font-family: 'Alegreya Sans italic', sans-serif;
+    position: center; 
 }
     .logo__footerinstragram{
         display: flex;
@@ -86,18 +115,11 @@ footer{
         display: flex;
         position: center;
     }
-    }
-    .footer__texto{
-        position: center;
-        font-family: Arial, sans-serif;
-    }
     .footer__texto a{
     text-decoration: none;
-    color:#616160;
-    font-family: Arial, sans-serif; 
-    position: left;
+    color:#616160; 
+    position: center;
     }
-        
     
     }
     
