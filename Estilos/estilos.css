@@ -10,7 +10,7 @@
     width: 100%;
     margin: auto;
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 10px;
     grid-template-rows: repeat (3 auto);
   
 }
@@ -19,37 +19,53 @@
     color: #616160;
     grid-column-start: 1;
     grid grid-column-end: 5;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Alegreya Sans italic', sans-serif;
+    position: fixed;
+    background-color: #f2eeedfb;
+    width: 100%;
 }
 .menu {
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #f2eeedfb;
+    width: 40%;
 }
 .menu__lista{
-display: flex;
-justify-content: space-evenly;
-width: 100%;
-height: 66,58%;
-font-family: 'Alegreya Sans italic', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    height: 48.9%;
+    width: 144vh;
+}
+.menu__logo{
+    height: 50px;
+    padding-right: 20px;
 }
 .menu__item{
     list-style: none;
+   
 }
 .menu__item a{
     text-decoration: none;
     color: #616160;
     font-size: 14px;
     text-align: center;
+    
 
 }
 /*INICIO*/
 .hero{
-    background-image: url(../Recursos/Inicio_page-0001.jpg);
-    background-position:center; 
-    background-size: cover;
+    background-image: url(../Recursos/BannerIndex.png);
+    display: flex;
     width: 100%;
-    height: 89vh;
+    height: 49rem;
+    background-size: cover;
+    background-position:center center; 
+    background-repeat: no-repeat;
+    
+    
 }
 /*QUIENES SOMOS*/
 .Contenido__QuienesSomos {
@@ -88,34 +104,41 @@ img.pequeña{
 .contenedor footer {
     background: #f2eeed; 
     color:#616160; 
-    grid-column: span 5;
     font-family: 'Alegreya Sans italic', sans-serif;
-
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 100;
+    width: 100%;
 }
 .Pie {
     display: flex;
     background-color: #f2eeed;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     font-family: 'Alegreya Sans italic', sans-serif;
-    position: center; 
+    position: right; 
 }
-    .logo__footerinstragram{
-        display: flex;
-        position: center
+.logo__footerinstragram{
+        height: 25px;
+        padding-left: 20px;
+        justify-content: right;
     }
-    .whatsapp__footer{
+.whatsapp__footer{
         display: flex;
         justify-content: center;
         width: 1440%;
         height: 66,58%;
         background-position: center;
     }
-    .ubicacion__footer{
+.ubicacion__footer{
         display: flex;
         position: center;
     }
-    .footer__texto a{
+.footer__texto a{
     text-decoration: none;
     color:#616160; 
     position: center;
