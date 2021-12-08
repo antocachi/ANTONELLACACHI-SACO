@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: o;
+    margin: 0;
 }
 .body {
     background: #f2eeed;
@@ -39,10 +39,7 @@
     height: 48.9%;
     width: 144vh;
 }
-.menu__logo{
-    height: 50px;
-    padding-right: 20px;
-}
+
 .menu__item{
     list-style: none;
    
@@ -68,8 +65,9 @@
     
 }
 /*QUIENES SOMOS*/
+ 
 .Contenido__QuienesSomos {
-    background-image: url(../Recursos/FondoPapelTextura.jpeg);
+    background-image: url(../Recursos/FondoHistoria.png);
     width: 100%;
     height: 100%;
 }
@@ -81,19 +79,16 @@
 
 }
 .hero__zaco{
-    background-image: url(../Recursos/zaco\ celestePEQUEÑA.png);
-    margin: auto;
-    display: block;
-    width: 100px;
-}
-img.pequeña{
-    width: 50px;
-    height: 50px;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    position: center;
 }
 
 .zaco__historia{
-    font-size: 14px;
-    line-height: 18px; 
+    font-size: 24px;
+    line-height: 25px; 
     text-align: center;
     border-style: solid;
     border-color: darkgrey;
@@ -144,7 +139,6 @@ img.pequeña{
     position: center;
     }
     
-    }
     
 
 
