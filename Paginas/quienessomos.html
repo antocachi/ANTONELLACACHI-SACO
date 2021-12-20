@@ -5,64 +5,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZACO</title>
-    <link rel= "stylesheet" href="../Estilos/estilos.css">
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&display=swap');
-      </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel= "stylesheet" href= "../Estilos/styles.css">
 </head>
 <body class="body">
-    <div class="Contenedor">
-    <header>
-        <span> <!-- MENU DE NAVEGACION-->
-          <nav class="menu"> 
-            <ul class="menu__lista">
-                <li class="menu__item"> <a href="../index.html">INICIO</a></li>
-                <li class="menu__item"> <a href="../Paginas/quienessomos.html">QUIENES SOMOS</a></li>
-                <li class="menu__item"> <a href="../Paginas/productos.html">PRODUCTOS</a></li>
-                <li class="menu__item"> <a href="../Paginas/preguntas frecuentes.html">PREGUNTAS FRECUENTES</a></li>
-                <li class="menu__item"> <a href="../Paginas/contacto.html">CONTACTO</a></li>
+  <div class="Contenedor header">
+  <header> 
+    <span> <!-- MENU DE NAVEGACION-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo" src="./Recursos/ZacoHeaders-removebg-preview (1).png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Paginas/quienessomos.html">QUIENES SOMOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Paginas/productos.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Paginas/preguntas frecuentes.html">PREGUNTAS FRECUENTES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Paginas/contacto.html">CONTACTO</a>
+        </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
         </span>
     </header>
   </div>
-    <hr>
-    <main class="Contenido__QuienesSomos"> <!--HISTORIA DE LA MARCA-->
-        <h1>QUIENES SOMOS</h1>
-         </div>
-         <p></p>
-         <div class="zaco__historia">
-            <p>ZACO es un emprendimiento mendocino que busca aportar su semilla al planeta </p> 
-            <p>creando bolsos materos a partir del material de descarte que genera la industria cervecera</p> 
-            <p>Queremos que nuestros bolsos hagan tus días únicos,vayas a donde vayas, estés con quien estés! </p> 
-            <p>Por eso diseñamos bolsos cancheros y prácticos para que lleves con vos</p>
-            <p>todo lo que quieras, incluído obvio nuestro mejor amigo: El Mate</p>
-            <p>Diseñamos segundas oportunidades, estas listo para ser parte??</p>
-         </div>
-         <div>
-          <div class="imagen">
-         <img src="../Recursos/ImagenHistoria1.jpg" alt="">
-         <img src="../Recursos/ImagenHistoria2.jpg" alt="">
-         <img src="../Recursos/ImagenHistoria3.jpg" alt="">
+    <div class="contanier mt-4">
+      <div class="col-sm-">
+            <div class="card mb-3" style="max-width: 740px;">
+              <div class="row g-0">
+                <div class="col-sm-4">
+                  <img src="../Recursos/CadrQuienesSomos.png" class="img-fluid rounded-start" alt="CHANCE">
+                </div>
+                <div class="col-sm-8">
+                  <div class="card-body">
+                    <h5 class="card-title">¿ QUIENES SOMOS ?</h5>
+                    <p class="card-text">Zaco es un emprendimiento mendocino que busca aportar su semilla al planeta creando bolsos materos a partir de material de descarte que genera la industria cervecera. 
+                      Queremos que nuestros bolsos hagan tus días únicos, vayas dónde vayas, estés con quién estés! Por eso diseñamos bolsos cancheros y prácticos para que lleves con vos todo lo que quieras, incluido obvio nuestro mejor amigo: el mate. 
+                      Diseñamos segundas oportunidades, estás listo para ser parte??</p>
+                    <p class="card-text"><small class="text-muted">ZACO-Mendocino</small></p>
+                  </div>
+                </div>
+              </div>
+          </div>
         </div>
     </div>
-
+    <main>
     </main>
-    <hr> <!--PIE DE PAGINA-->
-    <footer class="Contenedor footer">
-      <hr>
-    <div class="Pie">
-      <div class="logo__footerinstagram footer__texto">
-        <img src="../ANTONELLACACHI-SACO/Recursos/logoinstagris-removebg-preview.png"alt= Icono_instagram><a href="https://www.instagram.com/zaco.bag/" target="_blank">@Zaco</a>
-      </div>
-      <div class="whatsapp__footer footer__texto">
-        <img src="../Recursos/WHATSAPPPEQUEÑA-removebg-preview.png"alt= Icono_whatsapp>
-        <a href="https://api.whatsapp.com/send?phone=5492613638488">Contactanos</a>
-      </div>
-       <div class="footer__texto">
-        <img src="../ANTONELLACACHI-SACO/Recursos/ubicaciongris2-removebg-preview.png"alt= ubicacion__footer>
-        <a href="https://www.google.com/maps/place/Mendoza,+Capital,+Mendoza/@-32.8833303,-68.8935386,13z/data=!3m1!4b1!4m5!3m4!1s0x967e093ec45179bf:0x205a78f6d20efa3a!8m2!3d-32.8894587!4d-68.8458386">Mendoza-Argentina</a>
-       </div>
-    </div> 
+<!--PIE DE PAGINA-->
+<br>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+<footer class="deneb_footer">
+	<div class="widget_wrapper" style="background-image: url(http://demo.tortoizthemes.com/deneb-html/deneb-ltr/assets/images/footer_bg.png);">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="widget widegt_about">
+						<div class="widget_title">
+							<img src="assets/images/logo_1.png" class="img-fluid" alt="">
+						</div>
+						<p>¿ Queres aportar tu semilla al planeta, dandole una 2° oportunidad al material de descarte?</p>
+						<ul class="social">
+							<li><a href="https://api.whatsapp.com/send?phone=5492615596980"><i class="fab fa-whatsapp"></i></a></li>
+							<li><a href="https://www.instagram.com/zaco.bag/"><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="widget widget_link">
+						<div class="widget_title">
+							<h4>Links</h4>
+						</div>
+						<ul>
+							<li><a href="../index.html">Inicio</a></li>
+							<li><a href="../Paginas/quienessomos.html">Quienes Somos</a></li>
+							<li><a href="../Paginas/productos.html">Productos</a></li>
+							<li><a href="../Paginas/preguntas frecuentes.html">Preguntas</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="widget widget_contact">
+						<div class="widget_title">
+							<h4>Ubicacion</h4>
+							</div>
+							<div class="single_info">
+								<div class="icon">
+									<i class="fas fa-map-marker-alt"></i>
+								</div>
+								<div class="info">
+									<p>Luján de Cuyo<span> Mendoza-Argentina</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	    <div class="copyright_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="copyright_text">
+						<p>Antonella Cachi &copy; 2021 All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
