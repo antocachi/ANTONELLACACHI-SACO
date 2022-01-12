@@ -1,16 +1,22 @@
 .logo {
-	width: 55px;
+	width: 50px;
 }
 .contanier {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	background: center;
 }
-.navbar-nav {
+navbar-nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: right;
+	-webkit-box-pack: right;
+		-ms-flex-pack: right;
+			justify-content: right;
 	height: 48.9%;
 	width: 144vh;
-}
+  }
 body {
 	margin-top: 20px;
 }
@@ -127,6 +133,7 @@ body {
 			text-align: center;
 			p {
 				color: #011a3e;
+			}
 				span {
 					color: #9DD5CD;
 				}
